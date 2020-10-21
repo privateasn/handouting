@@ -1,0 +1,1182 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  20 OCT 2020 15:22
+entering extended mode
+**./logicCircuit.tex
+(logicCircuit.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> (C:\mikTex\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\mikTex\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\mikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\mikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\mikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\mikTex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\mikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(C:\mikTex\tex/latex/graphics-def\xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(C:\mikTex\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+ (C:\mikTex\tex/latex/ms\everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+) (C:\mikTex\tex/latex/graphics\color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(C:\mikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+)
+(C:\mikTex\tex/xelatex/xepersian\xepersian.sty
+Package: xepersian 2020/05/17 v23.1 Persian typesetting in XeLaTeX
+
+(C:\mikTex\tex/latex/fontspec\fontspec.sty
+(C:\mikTex\tex/latex/l3packages/xparse\xparse.sty
+(C:\mikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-06-18 L3 programming layer (loader) 
+
+(C:\mikTex\tex/latex/l3backend\l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count171
+\l__pdf_internal_box=\box45
+\g__pdf_backend_object_int=\count172
+\g__pdf_backend_annotation_int=\count173
+))
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(C:\mikTex\tex/latex/l3packages/xparse\xparse-generic.tex
+\l__xparse_current_arg_int=\count174
+\g__xparse_grabber_int=\count175
+\l__xparse_m_args_int=\count176
+\l__xparse_v_nesting_int=\count177
+))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(C:\mikTex\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count178
+\l__fontspec_language_int=\count179
+\l__fontspec_strnum_int=\count180
+\l__fontspec_tmp_int=\count181
+\l__fontspec_tmpa_int=\count182
+\l__fontspec_tmpb_int=\count183
+\l__fontspec_tmpc_int=\count184
+\l__fontspec_em_int=\count185
+\l__fontspec_emdef_int=\count186
+\l__fontspec_strong_int=\count187
+\l__fontspec_strongdef_int=\count188
+\l__fontspec_tmpa_dim=\dimen137
+\l__fontspec_tmpb_dim=\dimen138
+\l__fontspec_tmpc_dim=\dimen139
+
+(C:\mikTex\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(C:\mikTex\tex/latex/fontspec\fontspec.cfg)))
+(C:\mikTex\tex/xelatex/xepersian\xepersian-persiancal.sty
+Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
+\XePersian@i=\count189
+\XePersian@y=\count190
+\XePersian@m=\count191
+\XePersian@d=\count192
+\XePersian@latini=\count193
+\XePersian@persiani=\count194
+\XePersian@latinii=\count195
+\XePersian@persianii=\count196
+\XePersian@latiniii=\count197
+\XePersian@persianiii=\count198
+\XePersian@latiniv=\count199
+\XePersian@persianiv=\count266
+\XePersian@latinv=\count267
+\XePersian@persianv=\count268
+\XePersian@latinvi=\count269
+\XePersian@persianvi=\count270
+\XePersian@latinvii=\count271
+\XePersian@persianvii=\count272
+\XePersian@latinviii=\count273
+\XePersian@persianviii=\count274
+\XePersian@latinix=\count275
+\XePersian@persianix=\count276
+\XePersian@latinx=\count277
+\XePersian@persianx=\count278
+\XePersian@latinxi=\count279
+\XePersian@persianxi=\count280
+\XePersian@latinxii=\count281
+\XePersian@persianxii=\count282
+\XePersian@persianxiii=\count283
+\XePersian@temp=\count284
+\XePersian@temptwo=\count285
+\XePersian@tempthree=\count286
+\XePersian@yModHundred=\count287
+\XePersian@thirtytwo=\count288
+\XePersian@dn=\count289
+\XePersian@sn=\count290
+\XePersian@mminusone=\count291
+)
+(C:\mikTex\tex/xelatex/xepersian\xepersian-mathsdigitspec.sty
+Package: xepersian-mathsdigitspec 2018/12/16 v1.1.7 Unicode Persian maths digit
+s in XeLaTeX
+)
+(C:\mikTex\tex/xelatex/bidi\bidi.sty
+Package: bidi 2020/05/17 v36.3 Bidirectional typesetting in plain TeX and LaTeX
+
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2020 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v36.3, 2020/05/17
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/persiantex/bidi/issues
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+(C:\mikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\mikTex\tex/xelatex/bidi\biditools.sty
+Package: biditools 2020/05/13 v2 Programming tools for bidi package
+\@bidi@envbody=\toks16
+\@bidi@emptytoks=\toks17
+\bidi@poscount=\count292
+\bidi@tempcountb=\count293
+\bidi@temptoksa=\toks18
+\bidi@temptoksb=\toks19
+\bidi@dummies=\count294
+\bidi@are@these@correct=\toks20
+\bidi@toks@lista=\toks21
+\bidi@toks@listb=\toks22
+\bidi@stack@length=\count295
+\bidi@empty@stack=\toks23
+\bidi@looprepeat@depth=\count296
+)
+(C:\mikTex\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2020-05-28 v2.31 Module abspage for zref (HO)
+
+(C:\mikTex\tex/latex/zref\zref-base.sty
+Package: zref-base 2020-05-28 v2.31 Module base for zref (HO)
+
+(C:\mikTex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(C:\mikTex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\mikTex\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\mikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\mikTex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(C:\mikTex\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(C:\mikTex\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+(C:\mikTex\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\c@abspage=\count297
+Package zref Info: New property: abspage on input line 66.
+)
+(C:\mikTex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(C:\mikTex\tex/generic/xkeyval\xkeyval.tex
+(C:\mikTex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count298
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\@bidi@copyins@=\insert252
+
+(C:\mikTex\tex/xelatex/bidi\latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks26
+\bidi@column@check@number=\count299
+
+(C:\mikTex\tex/xelatex/bidi\footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count300
+\footdir@toks=\toks27
+)
+(C:\mikTex\tex/xelatex/bidi\article-xetex-bidi.def
+File: article-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for standard arti
+cle class for XeTeX engine
+)
+(C:\mikTex\tex/xelatex/bidi\color-xetex-bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
+LaTeX Info: Redefining \color on input line 47.
+)
+(C:\mikTex\tex/xelatex/bidi\graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(C:\mikTex\tex/xelatex/bidi\ragged2e-xetex-bidi.def
+File: ragged2e-xetex-bidi.def 2018/10/17 v0.3 bidi adaptations for ragged2e pac
+kage for XeTeX engine
+))
+(C:\mikTex\tex/xelatex/bidi\loadingorder-xetex-bidi.def
+File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
+ last package loaded
+)
+\bidi@digits=\count301
+\bidi@digits@charclass=\XeTeXcharclass1
+\bidi@sepmark@charclass=\XeTeXcharclass2
+)
+****************************************************
+* 
+* xepersian package (Persian for LaTeX, using XeTeX engine)
+* 
+* Description: The package supports Persian
+* typesetting, using fonts provided in the
+* distribution.
+* 
+* Copyright (c) 2008--2020 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub Organization
+* 
+* v23.1, 2020/05/17
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/xepersian
+* 
+* Issue tracker: https://github.com/persiantex/xepersian/issues
+* 
+* Primary author of xepersian package: Vafa Khalighi.
+* 
+****************************************************
+\xepersian@tcl=\count302
+\xepersian@ilg=\dimen140
+\xepersian@strutilg=\dimen141
+(C:\mikTex\tex/xelatex/xepersian\loadingorder-xepersian.def
+File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
+the last package loaded
+)
+(C:\mikTex\tex/xelatex/xepersian\footnote-xepersian.def
+File: footnote-xepersian.def 2017/08/09 v0.6 footnote macros for xepersian pack
+age
+)
+(C:\mikTex\tex/xelatex/xepersian\article-xepersian.def
+File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
+ass
+)
+
+Package fontspec Info: Font family 'lmroman10-regular(0)' created for font
+(fontspec)             'lmroman10-regular' with options
+(fontspec)             [Ligatures=TeX,Path,BoldFont={lmroman10-bold},BoldItalic
+Font={lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmroma
+ncaps10-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromans
+lant10-bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=dflt;map
+ping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=dflt;mappin
+g=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=dflt;mapp
+ing=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-regular]/OT:script=latn;language=dfl
+t;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-bold]/OT:script=latn;language=dflt;m
+apping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+
+)
+
+Package fontspec Info: Could not resolve font "Vazir/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Font family 'Vazir(0)' created for font 'Vazir' with
+(fontspec)             options [Script=Persian,Ligatures=PersianTeX,Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"Vazir/OT:script=arab;language=dflt;mapping=pers
+ian-tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"Vazir/B/OT:script=arab;language=dflt;mapping=pe
+rsian-tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"Vazir/BI/OT:script=arab;language=dflt;mapping=p
+ersian-tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 12.
+
+
+LaTeX Warning: Unused global option(s):
+    [pt].
+
+(logicCircuit.aux
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+)
+\openout1 = `logicCircuit.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+4.
+ (C:\mikTex\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 14.
+\AtBeginShipoutBox=\box46
+LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 21.
+LaTeX Font Info:    Font shape `TU/Vazir(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 21.
+ (logicCircuit.toc
+LaTeX Font Info:    Font shape `TU/Vazir(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 1.
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+ [1
+
+]
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+ [2]
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+ [3])
+\tf@toc=\write3
+\openout3 = `logicCircuit.toc'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+[][]
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[][]
+ []
+
+[5]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[][]
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--98
+[][]
+ []
+
+LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 100.
+LaTeX Font Info:    Font shape `TU/Vazir(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 100.
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--109
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+[][]
+ []
+
+[7]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+[8]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[][]
+ []
+
+[9]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--201
+[][]
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+[][]
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+[12]
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+[][]
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
+[][]
+ []
+
+[14]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+[][]
+ []
+
+[15] [16]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--405
+[][]
+ []
+
+[18] [19] [20] [21]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [22] [23]
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+ [24]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 596--598
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--616
+[][]
+ []
+
+[26]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+File: img/e1.jpg Graphic file (type bmp)
+<img/e1.jpg>
+ [27]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--632
+[][]
+ []
+
+[28]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--637
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--641
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--644
+[][]
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 644--646
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--648
+[][]
+ []
+
+[30]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [31]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--687
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 689--691
+[][]
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
+[][]
+ []
+
+
+Overfull \hbox (0.56744pt too wide) in paragraph at lines 700--702
+[]\TU/Vazir(0)/m/n/10 اگر دو عدد با علامت های مختلفی داشته باشیم هیچگاه اورفلو 
+رخ نخواهد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--704
+[][]
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 716--722
+[][]
+ []
+
+[34]
+File: img/te1.jpg Graphic file (type bmp)
+<img/te1.jpg>
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--749
+[][]
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 766--772
+[][]
+ []
+
+[36]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [37]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [38]
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+File: img/codes.jpg Graphic file (type bmp)
+<img/codes.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 829--835
+[][]
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 836--838
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 839--852
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 868--880
+[][]
+ []
+
+[40]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 906--909
+[][]
+ []
+
+[41] [42]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [43]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [44]
+File: img/Gary2Binary.jpg Graphic file (type bmp)
+<img/Gary2Binary.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 966--967
+[][]
+ []
+
+[45]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ü in font cmmi10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--988
+[][]
+ []
+
+[46]
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+File: img/asciibits.png Graphic file (type bmp)
+<img/asciibits.png>
+File: img/asciitable.png Graphic file (type bmp)
+<img/asciitable.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1012
+[][]
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1016
+[][]
+ []
+
+[48]
+File: img/sampleAsciicode.png Graphic file (type bmp)
+<img/sampleAsciicode.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
+[][]
+ []
+
+[49]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [50]
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
+[][]
+ []
+
+File: img/blockParity.jpg Graphic file (type bmp)
+<img/blockParity.jpg>
+[51]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+[52]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1086
+[][]
+ []
+
+File: img/checksumTypes.jpg Graphic file (type bmp)
+<img/checksumTypes.jpg>
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+[53]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+ [54]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Overfull \hbox (12.7582pt too wide) in paragraph at lines 1108--1110
+[][]\TU/Vazir(0)/m/n/10 اول باید بررسی کنیم که اعداد دریافت شده چند بیتی است، (
+تشخیص[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1118
+[][]
+ []
+
+[55]
+File: img/hamming1.jpg Graphic file (type bmp)
+<img/hamming1.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1128
+[][]
+ []
+
+[56]
+File: img/h2.jpg Graphic file (type bmp)
+<img/h2.jpg>
+ [57]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
+[][]
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1166
+[][]
+ []
+
+[59]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1172
+[][]
+ []
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1177
+[][]
+ []
+
+
+Overfull \hbox (2.83115pt too wide) in paragraph at lines 1230--1230
+[][]\TU/Vazir(0)/b/n/14.4 طراحی مدارات ترتیبی سنکرون - کاهش حالات []
+ []
+
+[61] [62] (logicCircuit.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6193 strings out of 414071
+ 155108 string characters out of 2901731
+ 487241 words of memory out of 3000000
+ 23727 multiletter control sequences out of 15000+200000
+ 533206 words of font info for 47 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 55i,10n,74p,1064b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on logicCircuit.pdf (62 pages).
