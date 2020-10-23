@@ -1175,60 +1175,100 @@ $2^{3} - 1 >= 11 + 3 false$\\
 $2^{4} - 1 >= 11 + 4 true$\\
 پس در 11 بیت 4 بیت پرتی خواهیم داشت.\\
 
+\newpage
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\raggedleft
+\justifying
 \section{جبر بول - ساده سازی - PI, EPI}
+اساس کار مدار منطقی، جبر بول یا جبر مجموعه ها یا جبر سویچ است.
+\subsection{table truth And Or Not }
+جدول را از راست به چپ بخوانید:
+\center
+\begin{tabular}{ c c | c | c | c}
+	A & B & A . B & A + B & !A \\
+	\hline
+	0 & 0 & 0 & 0 & 1\\ 				
+	1 & 0 & 0 & 1 & 0\\
+	0 & 1 & 0 & 1 & 1\\
+	1 & 1 & 1 & 1 & 0\\
+\end{tabular}
+
+\raggedleft
+\justifying
+\subsection{table truth NAND NOR Xor XNOR }
+\center
+\begin{tabular}{ c c | c | c | c | c}
+	A & B & NAND $\uparrow$ & NOR $\downarrow$ & XOR $\oplus $ & XNOR $\odot$\\
+	\hline
+	0 & 0 & 1 & 1 & 0 & 1\\ 				
+	1 & 0 & 1 & 0 & 1 & 0\\
+	0 & 1 & 1 & 0 & 1 & 0\\
+	1 & 1 & 0 & 0 & 0 & 1\\
+\end{tabular}
+\newpage
+ 
+\raggedleft
+\justifying
+راهی دیگر برای اثبات \textbf{Xor} یا \textbf{Xnor} وجود دارد:\\
+
+\raggedright
+$XOR = (\overline{A}.B) + (\overline{B}.A) \equiv (\sim A\wedge B) \vee (A \wedge\sim B) $\\
+$XNOR = (A.B) + (\overline{A}.\overline{B}) \equiv (A \wedge B)\vee(\sim A\wedge\sim B)$\\
+
+\raggedleft
+\justifying
+
+\textbf{نکته:}\\
+به هر کدام از A.B ها یا حالاتی دیگر در حالت کلی\textbf{ Term Products }گفته میشود.\\
+
+به \textbf{Term Product }هایی که بین آنها عمل جمع یا or اتفاق افتاده است، \textbf{Product of Sum }یا \textbf{SoP} گفته می شود.\\
+
+به هر Term Products که بین آنها عمل ضرب یا And صورت گرفته بر عکس SoP در حقیت PoS یا Sum of Products گفته می شود\\
 
 
-\section{گیت ها - منطق سه حالته - هازارد - تکنولوژی های ساخت تراشه}
+\begin{itemize}\centering
+	\item
+	$\overbrace{\underbrace{(\overline{A}.B)_{Products Term}} + (\overline{B}.A)}^{Sum of Products}$
 
-\section{مدارات ترکیبی}
+	\item
+	$\overbrace{\underbrace{(\overline{A}.B)_{Products Term}} . (\overline{B}.A)}^{Products of Sum}$ 
+\end{itemize}
 
-\section{لچ ها و فلیپ فلاپ ها}
 
-\section{تحلیل مدارات ترتیبی سنکرون - میلی و مور - شمارنده ها  و ثبات}
+\raggedleft
+\justifying
 
-\section{طراحی مدارات ترتیبی سنکرون - کاهش حالات}
 
-\section{سنتز مدار با زبان برنامه نویسی وریلاگ}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\section{گیت ها - منطق سه حالته - هازارد - تکنولوژی های ساخت تراشه}
+
+%\section{مدارات ترکیبی}
+
+%\section{لچ ها و فلیپ فلاپ ها}
+
+%\section{تحلیل مدارات ترتیبی سنکرون - میلی و مور - شمارنده ها  و ثبات}
+
+%\section{طراحی مدارات ترتیبی سنکرون - کاهش حالات}
+
+%\section{سنتز مدار با زبان برنامه نویسی وریلاگ}
 
 \end{document}
