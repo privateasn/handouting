@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Foreword}{1}%
+\contentsline {section}{\numberline {2}What is ML}{2}%
+\contentsline {subsection}{\numberline {2.1}What is it used for?}{2}%
+\contentsline {section}{\numberline {3}What are Neural Networks}{3}%
+\contentsline {section}{\numberline {4}Different between Supervised and Unsupervised Learning}{4}%
+\contentsline {section}{\numberline {5}Supervised learning process}{4}%
+\contentsline {section}{\numberline {6}Evaluate Performance}{4}%
+\contentsline {section}{\numberline {7}Overfitting}{4}%
