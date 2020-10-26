@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  25 OCT 2020 18:11
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  26 OCT 2020 13:17
 entering extended mode
 **./ML.tex
 (ML.tex
@@ -19,7 +19,32 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (C:\mikTex\tex/latex/iwona\iwona.sty
+)
+(C:\mikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\mikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\mikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\mikTex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\mikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(C:\mikTex\tex/latex/graphics-def\xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(C:\mikTex\tex/latex/iwona\iwona.sty
 Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
@@ -55,12 +80,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwonabold'
 (Font)                  OT1/cmss/m/n --> OT1/iwonal/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwonabold'
 (Font)                  OT1/cmr/m/it --> OT1/iwonal/bx/it on input line 72.
-)
-(C:\mikTex\tex/latex/base\fontenc.sty
+) (C:\mikTex\tex/latex/base\fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+iwonal on input line
  112.
- (C:\mikTex\tex/latex/iwona\t1iwonal.fd
+
+(C:\mikTex\tex/latex/iwona\t1iwonal.fd
 File: t1iwonal.fd 2008/07/22 v0.995 font definition file for T1/iwonal (MW)
 ))
 (C:\mikTex\tex/latex/l3backend\l3backend-xdvipdfmx.def
@@ -72,28 +97,28 @@ File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
 ) (ML.aux)
 \openout1 = `ML.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
 .
 
 (C:\mikTex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
  (ML.toc
 LaTeX Font Info:    Trying to load font information for OT1+iwonalm on input li
 ne 3.
@@ -125,33 +150,57 @@ File: omxiwonal.fd 2008/07/22 v0.995 font definition file for OMX/iwonal (MW)
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 37--42
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
 
  []
 
-[3] [4] (ML.aux) ) 
-Here is how much of TeX's memory you used:
- 921 strings out of 414071
- 13421 string characters out of 2901731
- 247684 words of memory out of 3000000
- 18613 multiletter control sequences out of 15000+200000
- 597611 words of font info for 65 fonts, out of 3000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 24i,8n,24p,764b,167s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ML.pdf (4 pages).
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+iwonal on input lin
+e 73.
+(C:\mikTex\tex/latex/iwona\ts1iwonal.fd
+File: ts1iwonal.fd 2008/07/22 v0.995 font definition file for TS1/iwonal (MW)
+) [5]
+File: img/overfitting1.jpg Graphic file (type bmp)
+<img/overfitting1.jpg>
+File: img/overfittingGoodModel.jpg Graphic file (type bmp)
+<img/overfittingGoodModel.jpg>
+File: img/overfittingnoise.jpg Graphic file (type bmp)
+<img/overfittingnoise.jpg>
+ [6] [7]
+File: img/overfittingLargerError.jpg Graphic file (type bmp)
+<img/overfittingLargerError.jpg>
+ [8] (ML.aux) ) 
+Here is how much of TeX's memory you used:
+ 1391 strings out of 414071
+ 19432 string characters out of 2901731
+ 254073 words of memory out of 3000000
+ 19055 multiletter control sequences out of 15000+200000
+ 597953 words of font info for 66 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 30i,8n,25p,1171b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on ML.pdf (8 pages).
