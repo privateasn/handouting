@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  26 OCT 2020 13:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  26 OCT 2020 17:20
 entering extended mode
 **./ML.tex
 (ML.tex
@@ -97,28 +97,28 @@ File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
 ) (ML.aux)
 \openout1 = `ML.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
-.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+2.
 
 (C:\mikTex\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  (ML.toc
 LaTeX Font Info:    Trying to load font information for OT1+iwonalm on input li
 ne 3.
@@ -147,60 +147,92 @@ File: omxiwonal.fd 2008/07/22 v0.995 font definition file for OMX/iwonal (MW)
 \tf@toc=\write3
 \openout3 = `ML.toc'.
 
- [1
+
+Overfull \vbox (20.74132pt too high) has occurred while \output is active []
+
+
+[1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
 LaTeX Font Info:    Trying to load font information for TS1+iwonal on input lin
-e 73.
-(C:\mikTex\tex/latex/iwona\ts1iwonal.fd
+e 76.
+ (C:\mikTex\tex/latex/iwona\ts1iwonal.fd
 File: ts1iwonal.fd 2008/07/22 v0.995 font definition file for TS1/iwonal (MW)
-) [5]
+)
 File: img/overfitting1.jpg Graphic file (type bmp)
 <img/overfitting1.jpg>
+ [5]
 File: img/overfittingGoodModel.jpg Graphic file (type bmp)
 <img/overfittingGoodModel.jpg>
 File: img/overfittingnoise.jpg Graphic file (type bmp)
 <img/overfittingnoise.jpg>
- [6] [7]
+ [6]
 File: img/overfittingLargerError.jpg Graphic file (type bmp)
 <img/overfittingLargerError.jpg>
- [8] (ML.aux) ) 
+ [7]
+File: img/underfittingUpwardSlope.jpg Graphic file (type bmp)
+<img/underfittingUpwardSlope.jpg>
+File: img/underfittingGoodModel.jpg Graphic file (type bmp)
+<img/underfittingGoodModel.jpg>
+ [8]
+File: img/underfittingBadModel.jpg Graphic file (type bmp)
+<img/underfittingBadModel.jpg>
+ [9]
+File: img/underfittingGoodModel.jpg Graphic file (type bmp)
+<img/underfittingGoodModel.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--182
+
+ []
+
+File: img/testset.jpg Graphic file (type bmp)
+<img/testset.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--187
+
+ []
+
+[10]
+File: img/poorPerform.jpg Graphic file (type bmp)
+<img/poorPerform.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+[11] (ML.aux) ) 
 Here is how much of TeX's memory you used:
- 1391 strings out of 414071
- 19432 string characters out of 2901731
- 254073 words of memory out of 3000000
- 19055 multiletter control sequences out of 15000+200000
+ 1421 strings out of 414071
+ 20205 string characters out of 2901731
+ 255121 words of memory out of 3000000
+ 19080 multiletter control sequences out of 15000+200000
  597953 words of font info for 66 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 30i,8n,25p,1171b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,8n,25p,1171b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ML.pdf (8 pages).
+Output written on ML.pdf (11 pages).
