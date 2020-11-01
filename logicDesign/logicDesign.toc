@@ -42,4 +42,8 @@
 \contentsline {subsubsection}{\numberline {1.26.4}نحوه محاسبه تعداد پرتی های همینگ}{60}%
 \contentsline {section}{\numberline {2}جبر بول - ساده سازی - PI, EPI}{62}%
 \contentsline {subsection}{\numberline {2.1}table truth And Or Not }{62}%
-\contentsline {subsection}{\numberline {2.2}table truth NAND NOR Xor XNOR }{62}%
+\contentsline {subsection}{\numberline {2.2}table truth NAND NOR Xor XNOR }{63}%
+\contentsline {subsection}{\numberline {2.3}Low Dual}{65}%
+\contentsline {subsubsection}{\numberline {2.3.1}Dual Self}{65}%
+\contentsline {subsubsection}{\numberline {2.3.2}اصل Duality}{66}%
+\contentsline {subsection}{\numberline {2.4}خاصیت های گزاره ها}{67}%

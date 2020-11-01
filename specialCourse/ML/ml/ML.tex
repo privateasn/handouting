@@ -12,6 +12,7 @@
 \begin{document}
 
 \tableofcontents
+\newpage
 
 \section{Foreword}
 This is my English handout about Machine Learning and Deep Learning, and please excuse me from all readers for the sake of my some bad English Terminology in whole of this handout or "article". Why i choice English language for this handout? Because i will push this handout in universe repo such as GitHub or Google scholar for help someone that want learn ML and DL and etc.
@@ -197,10 +198,246 @@ After all, we were given the chance to update the model parameters again and aga
 	
 	So this is a good indication of training to much on that training dataset and you begin to overfitting. you have done too many passes on that training set and now your model can't generalize to data it hasn't seen before. it's only been able to predict now really well only on data it's seen.
 	
-	So what we want to do, is want to make sure we don't train too much on that specific training set, we can still generalize to new test or validation data and what we can do is we can plot out this behavior on the training set versus the test test set and then you should look to have a \textbf{cutoff point} on that training time, so as you can see the error on the test set start to increase, that's a good indication that's where overfitting on the training data would begin. So you want to kind of choose that cutoff point and it's not always as clear as this where essentially the intersect, but the main idea begin if you see an increase in error on that test set as the training error is still going down that's a good indication that you should stop training there.
+	So what we want to do, is want to make sure we don't train too much on that specific training set, we can still generalize to new test or validation data and what we can do is we can plot out this behavior on the training set versus the test test set and then you should look to have a \textbf{cutoff point} on that training time, so as you can see the error on the test set start to increase, that's a good indication that's where \textbf{overfitting} on the training data would begin. So you want to kind of choose that cutoff point and it's not always as clear as this where essentially the intersect, but the main idea begin if you see an increase in error on that test set as the training error is still going down that's a good indication that you should stop training there.
 \end{itemize}
 
 \section{Evaluate Performance}
+\subsection{Evaluating Performance Classification}
+
+The key classification metrics we need to understand are:
+\begin{itemize}
+	\item
+	\textbf{Accuracy}\\
+		Accuracy in classification problems is the \textbf{number of correct predictions} made by the model divided by the \textbf{total number of prediction}.\\
+		For example, if the X-test set was 100 images and our model correctly predicted 80 images, then we have 80/100 or \textbf{0.8} or \textbf{80\%}\textbf{ accuracy}.
+	
+	\begin{itemize}
+		\item
+		Accuracy is not a good choice with unbalanced classes!
+		\item
+		Imagine we had 99 images of dogs and 1 image of cat.
+		\item
+		If our model was simply a line that always predicted dog we would get 99\% accuracy.
+	\end{itemize}
+		
+	\item
+	\textbf{Recall}\\
+		Ability of a model to find all the relevant(related) cases within a dataset.\\
+		The precise definition of recall is the number of true positives \textbf{divided by} the number of true positives plus the number of false negative.
+	\item
+	\textbf{Precision}\\
+	Ability of a classification model identify only the relevant data points.\\
+	Precision is defined as the number of true positives divided by number of true positives plus the number of false positives.
+	
+	\item 
+	\textbf{Recall and Precision:}\\
+	Often you have a trade-off between Recall and Precision.\\
+	While Recall, expresses the ability to find all relevant instance in a dataset.\\
+	Precision, expresses the proportion of the data points our model says was relevant actually were relevant.
+	\item
+	\textbf{F1-Score}\\
+	In cases where we want to find an optimal blend of precision and recall we can combine the two metrics using what is called the F1 Score.\\
+	The F1 Score is the harmonic mean of precision and recall taking both metrics into account in the following equation:\\
+	\begin{equation}
+		F1 = 2 * \frac{precision * recall}{precision + recall}
+	\end{equation}
+\end{itemize}
+But first, we should understand the reasoning behind these metrics and how thy will actually work in the real world!\\
+
+typically in any classification task your model can only achieve two results:
+\begin{itemize}
+	\item
+	Either your model was \textbf{correct} in its prediction.
+	\item
+	Or your model was \textbf{incorrect} in its prediction 
+\end{itemize}
+
+
+Fortunately incorrect vs correct expands to situations where you have multiple classes such as categories.\\
+For the purposes of explaining the metrics, let's imagine a binary classification situation, where we only have two available classes(0, 1).\\
+
+
+In my example, we will attempt to predict if an image is a dog or a cat.\\
+Since this is supervised leaning, we will first \textbf{fit/train} a model on \textbf{training data}, then test the model on\textbf{ testing data}.\\
+Once we have the model's predictions from the $x_test$ data, we compare it to the true y values (the correct labels.\\
+\newpage
+
+\LARGE
+All of this is to say, ML is not performed in a "Vacuum", but instead a collaborative process where we should consult with experts in the domain (e.g.medical doctors)
+\small
+
+\subsection{Evaluating Performance Regression}
+Let's take a moment now to discuss evaluating Regression Models.\\
+	Regression is a task when a model attempts to predict continuous value (unlike categorical values, which is classification)
+	You may have heard of some evaluation metrics like accuracy or recall.\\
+	These sort of metrics aren't useful regression problems, we need metrics designed for continuous values.
+ 
+ \begin{itemize}
+ 	\item
+ 	For example, attempting to predict the price of a house given its feature is a \textbf{regression task}.
+ 	\item
+ 	Attempting to predict the country a house is in given its features would be a classification task.
+ \end{itemize}
+ 
+ Let's discuss some of the most common evaluation metrics for regression:
+ \begin{itemize}
+ 	\item
+ 	Mean Absolute Error
+ 	\item
+ 	Mean Squared Error
+ 	\item
+ 	Root Mean Square Error
+ \end{itemize}
+ 
+ 
+  \begin{itemize}
+ 	\item
+ 	\textbf{Mean Absolute Error (MAE):}\\
+ 	This is the mean of the absolute value of errors.\\
+ 	Easy to understand.
+	\begin{equation}
+		\frac{1}{n} \sum_{i=1}^{n} \mid y_{i}- y^{\wedge}_{i}\mid
+	\end{equation}	 	
+
+ 	\item
+ 	\textbf{Mean Squared Error(MSE):}\\
+ 		Larger errors are noted more than with MAR, making MSE more popular.
+		\begin{equation}
+		 	\frac{1}{n} \sum_{i=1}^{n} (y_{i}- y^{\wedge}_{i})^{2}
+		\end{equation}
+ 	\item
+ 	\textbf{Root Mean Square Error (RMSE) :}\\
+ 	Most popular (has same units as y)
+ 	\begin{equation}
+	\sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_{i}- y^{\wedge}_{i})^{2}}
+ 	\end{equation}
+ \end{itemize}
+ 
+\section{Unsupervised Learning}
+ 
+ We've covered supervised learning, where the \textbf{label was known} due to \textbf{historical labeled data}.\\
+ But what happens when we don't have historical labels?\\
+ There are certain tasks that fall under Unsupervised Learning:
+ \begin{itemize}
+ 	\item
+ 	Clustering 
+ 	\item
+ 	Anomaly Detection
+ 	\item
+ 	Dimensionality Reduction
+\end{itemize} 
+
+ \begin{itemize}
+ 	\item
+ 	\textbf{Clustering:}
+	\begin{itemize}
+		\item
+		 		Grouping together \textbf{unlabeled} data points into categories/clusters
+		 		
+		 \item
+		 Data points are assigned to a cluster based on similarity.
+	\end{itemize}	 
+ 		
+ 	\item
+ 	\textbf{Anomaly Detection:}
+ 	\begin{itemize}
+ 		\item
+ 		Attempts to detect outliers in a dataset
+ 		\item
+ 		For example, fraudulent transactions on a credit card.
+ 	\end{itemize}
+ 	\item
+ 	\textbf{Dimensionality Reduction:}
+ 	\begin{itemize}
+ 		\item
+ 		Data processing the techniques that reduces the number of features in a data set, either for compression, or to better understand underlying trends with in a data set.
+ 	\end{itemize}
+\end{itemize} 
+
+Unsupervised Learning:\\
+it's important to note, these are situations where we \textbf{don't} have the correct answer for historical data.\\
+\large which means evaluation is much harder and more nuanced!
+\small
+
+\section{Artificial Neural Networks}
+
+\subsection{Perceptron model}
+To begin understanding deep learning,m we will build up our model abstractions:\\
+\begin{itemize}
+	\item
+	Single Biological Neuron
+	\item
+	Preceptron 
+	\item
+	Multi-layer Perceptron Model
+	\item
+	Deep Leaning Neural Network
+\end{itemize}
+
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.5]{img/biologicalNN.jpg}}
+	\caption{Simplified Biological Neuron Model(3 input $\rightarrow$ 1 output)}
+\end{figure}
+
+
+A \textbf{perceptron} was a form of neural network introduced in 1958 by Frank Rosenblatt.\\
+Amazingly, even back then he saw huge potential:\\
+\large "\textbf{Perceptron} may eventually be able to learn, make decisions, and translate languages."
+\small\\
+\newpage
+\textbf{If f(x) is just a sum, then y=x1+x2}
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.5]{img/sumPerceptron.jpg}}
+\end{figure}
+\newpage
+
+
+
+To build a network of perceptrons, we can connect layers of perceptrons, using a \textbf{multi-layer perceptron model}. The outputs of one perceptron are directly fed into as inputs to another perceptron.
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.5]{img/multiPerceptronModel.jpg}}
+\end{figure}
+
+The fist layer is the input layer, can be a series of categories or some data points or tabular of data as input to this perceptron model.
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.5]{img/inputLayer.jpg}}
+\end{figure}
+
+The last layer is the output layer.\\
+\textbf{NOTE}: This last layer can be more than one neuron.
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.5]{img/outputLayer.jpg}}
+\end{figure}
+
+Hidden layers are difficult to interpret, due to their high interconnectivity and distance away from known input or output values.
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.5]{img/hiddenLayer.jpg}}
+\end{figure}
+
+Neural Networks become "Deep neural networks" if then contain 2 or more \textbf{hidden layers}.
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.5]{img/hiddenLayer.jpg}}
+\end{figure}
+
+
+\begin{figure}[htbp]	\centerline{\includegraphics[scale=.52]{img/deep_and_none_deep.jpg}}
+\caption{Deep and non deep neural networks}
+\end{figure}
+\newpage
+
+\Large Terminology:\small
+\begin{itemize}
+	\item
+	\textbf{Input Layer:} First layer that directly accepts real data values.
+	\item
+	\textbf{Hidden Layer:} Any layer between input and output layers.
+	\item
+	\textbf{Output Layer:} The final estimate of the output.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  23 OCT 2020 12:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  29 OCT 2020 06:33
 entering extended mode
-**./logicCircuit.tex
-(logicCircuit.tex
+**./logicDesign.tex
+(logicDesign.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (C:\mikTex\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -419,7 +419,7 @@ LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
 LaTeX Warning: Unused global option(s):
     [pt].
 
-(logicCircuit.aux
+(logicDesign.aux
 
 LaTeX Warning: Label `fig' multiply defined.
 
@@ -451,7 +451,7 @@ LaTeX Warning: Label `fig' multiply defined.
 LaTeX Warning: Label `fig' multiply defined.
 
 )
-\openout1 = `logicCircuit.aux'.
+\openout1 = `logicDesign.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -482,7 +482,7 @@ LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 21.
 LaTeX Font Info:    Font shape `TU/Vazir(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 21.
- (logicCircuit.toc
+ (logicDesign.toc
 LaTeX Font Info:    Font shape `TU/Vazir(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
 Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
@@ -609,16 +609,28 @@ Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;ma
 ping=persian-tex-text;!
 Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
 ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir/OT:script=arab;language=dflt;map
+ping=persian-tex-text;!
 )
 \tf@toc=\write3
-\openout3 = `logicCircuit.toc'.
+\openout3 = `logicDesign.toc'.
 
-
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 [][]
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 [][]
  []
@@ -628,12 +640,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 [][]
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 [][]
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 [][]
  []
@@ -1167,7 +1179,7 @@ Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=df
 t;mapping=persian-tex-text;!
 Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
 t;mapping=persian-tex-text;!
- [62]
+ [62] [63]
 Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
 [][]
  []
@@ -1187,18 +1199,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
 [][]
  []
 
-[63] (logicCircuit.aux)
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
+[][]
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
+[][]
+ []
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 1264--1268
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
+[][]
+ []
+
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+[66] [67] [68] (logicDesign.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  6193 strings out of 414071
- 155108 string characters out of 2901731
- 488241 words of memory out of 3000000
+ 155094 string characters out of 2901731
+ 488240 words of memory out of 3000000
  23727 multiletter control sequences out of 15000+200000
  533206 words of font info for 47 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,16n,74p,1064b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,74p,1063b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicCircuit.pdf (63 pages).
+Output written on logicDesign.pdf (68 pages).

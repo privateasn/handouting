@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  26 OCT 2020 17:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  31 OCT 2020 07:23
 entering extended mode
 **./ML.tex
 (ML.tex
@@ -147,92 +147,137 @@ File: omxiwonal.fd 2008/07/22 v0.995 font definition file for OMX/iwonal (MW)
 \tf@toc=\write3
 \openout3 = `ML.toc'.
 
+ [1
 
-Overfull \vbox (20.74132pt too high) has occurred while \output is active []
-
-
-[1
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+[5]
 LaTeX Font Info:    Trying to load font information for TS1+iwonal on input lin
-e 76.
+e 77.
  (C:\mikTex\tex/latex/iwona\ts1iwonal.fd
 File: ts1iwonal.fd 2008/07/22 v0.995 font definition file for TS1/iwonal (MW)
 )
 File: img/overfitting1.jpg Graphic file (type bmp)
 <img/overfitting1.jpg>
- [5]
+ [6]
 File: img/overfittingGoodModel.jpg Graphic file (type bmp)
 <img/overfittingGoodModel.jpg>
 File: img/overfittingnoise.jpg Graphic file (type bmp)
 <img/overfittingnoise.jpg>
- [6]
+ [7]
 File: img/overfittingLargerError.jpg Graphic file (type bmp)
 <img/overfittingLargerError.jpg>
- [7]
+ [8]
 File: img/underfittingUpwardSlope.jpg Graphic file (type bmp)
 <img/underfittingUpwardSlope.jpg>
 File: img/underfittingGoodModel.jpg Graphic file (type bmp)
 <img/underfittingGoodModel.jpg>
- [8]
+ [9]
 File: img/underfittingBadModel.jpg Graphic file (type bmp)
 <img/underfittingBadModel.jpg>
- [9]
+ [10]
 File: img/underfittingGoodModel.jpg Graphic file (type bmp)
 <img/underfittingGoodModel.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--182
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
 
  []
 
 File: img/testset.jpg Graphic file (type bmp)
 <img/testset.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--187
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
 
  []
 
-[10]
+[11]
 File: img/poorPerform.jpg Graphic file (type bmp)
 <img/poorPerform.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-[11] (ML.aux) ) 
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
+
+ []
+
+[14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+File: img/biologicalNN.jpg Graphic file (type bmp)
+<img/biologicalNN.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--386
+
+ []
+
+[17]
+File: img/sumPerceptron.jpg Graphic file (type bmp)
+<img/sumPerceptron.jpg>
+ [18]
+File: img/multiPerceptronModel.jpg Graphic file (type bmp)
+<img/multiPerceptronModel.jpg>
+File: img/inputLayer.jpg Graphic file (type bmp)
+<img/inputLayer.jpg>
+File: img/outputLayer.jpg Graphic file (type bmp)
+<img/outputLayer.jpg>
+File: img/hiddenLayer.jpg Graphic file (type bmp)
+<img/hiddenLayer.jpg>
+ [19]
+File: img/hiddenLayer.jpg Graphic file (type bmp)
+<img/hiddenLayer.jpg>
+File: img/deep_and_none_deep.jpg Graphic file (type bmp)
+<img/deep_and_none_deep.jpg>
+ [20] [21] (ML.aux) ) 
 Here is how much of TeX's memory you used:
- 1421 strings out of 414071
- 20205 string characters out of 2901731
- 255121 words of memory out of 3000000
- 19080 multiletter control sequences out of 15000+200000
+ 1463 strings out of 414071
+ 21167 string characters out of 2901731
+ 254121 words of memory out of 3000000
+ 19115 multiletter control sequences out of 15000+200000
  597953 words of font info for 66 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  30i,8n,25p,1171b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ML.pdf (11 pages).
+Output written on ML.pdf (21 pages).

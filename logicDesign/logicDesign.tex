@@ -1180,7 +1180,7 @@ $2^{4} - 1 >= 11 + 4 true$\\
 \raggedleft
 \justifying
 \section{جبر بول - ساده سازی - PI, EPI}
-اساس کار مدار منطقی، جبر بول یا جبر مجموعه ها یا جبر سویچ است.
+اساس کار مدار منطقی، جبر بول یا جبر مجموعه ها یا جبر سویچ است. جبر بول به خاطر آقای Boole George نام گذاری شده است، که برای بیان منطق انسان از آن استفاده نمود. بعد از مدتی Shannonn جبر کلیدی یا Algebra Switching را برای نمایش مدارهای کلیدی دو حالتی معرفی کرد یعنی جبر دو ارزشی.
 \subsection{table truth And Or Not }
 جدول را از راست به چپ بخوانید:
 \center
@@ -1234,18 +1234,115 @@ $XNOR = (A.B) + (\overline{A}.\overline{B}) \equiv (A \wedge B)\vee(\sim A\wedge
 	$\overbrace{\underbrace{(\overline{A}.B)_{Products Term}} . (\overline{B}.A)}^{Products of Sum}$ 
 \end{itemize}
 
-
 \raggedleft
 \justifying
 
 
+\subsection{Low Dual}
+در قانون دوئال در Term Product ها چند چیز تغییر خواهد کرد:\\
+
+\raggedright
+$A.B \leftrightarrow A+B$\\
+$0 \leftrightarrow 1$
+
+\raggedleft
+\justifying
+\textbf{برای مثال:}\\
+
+\raggedright
+$f(a.b) \rightarrow f^{*} = a+b$\\
+$f = a.1 + \overline{b}.c \rightarrow f^{*}=(a+0) . (\overline{b}+c) $\\
+$f()= A \oplus B = (\overline{A}.B) + (A.\overline{B}) \rightarrow f^{*}()= (\overline{A}+B) . (A+\overline{B})$
 
 
+\raggedleft
+\justifying
+\subsubsection{Dual Self}
+در قانون Dual Self به چیزی اشاره میکند که صحت دوئال آن با حالت عادی آن برابر است\\
+\newpage
+
+\textbf{مثال:}\\
+ثابت کنید که تابع
+$f=a.b + a.c + b.c$
+با هم خود دگان یا سلف دوئال است:\\
+
+\raggedright
+$f^{*}() = (a+b).(a+c).(b+c)$
+
+\center
+\begin{tabular}{ c c c | c | c}
+	a & b & c & $f()$ & $f^{*}()$\\
+	\hline
+	0 & 0 & 0 & 0 & 0 \\ 				
+	0 & 0 & 1 & 0 & 0\\
+	0 & 1 & 0 & 0 & 0\\
+	0 & 1 & 1 & 1 & 1\\
+	1 & 0 & 0 & 0 & 0\\
+	1 & 0 & 1 & 1 & 1\\
+	1 & 1 & 0 & 1 & 1\\
+	1 & 1 & 1 & 1 & 1\\
+\end{tabular}
+
+\raggedleft
+\justifying
+
+\subsubsection{اصل Duality}
+اگر دو تابع با هم سلف دوئال باشند، اگر خاصیتی برای حالت عادی تابع صدق کند برای حالت دوئال آن هم صادق میباشد.\\
+
+\subsection{خاصیت های گزاره ها}
 
 
+\begin{itemize}\centering
+	\item
+	خاصیت خودتوانی:\\
+
+$A.A = A$ \\
+$A+A = A$
+	\item
+خاصیت جذبی:\\
+
+$A.(A+B) = A$ \\
+$A+(A.B) = A$ \\	
+	\item
+	خاصیت جذبی:\\
+
+$A.(A+B) = A$ \\
+$A+(A.B) = A$ \\
+	\item
+خاصیت جابجایی:\\
+
+$A.B = B.A$ \\
+$A+B = B+A$ \\	
+	\item
+خاصیت شرکت پذیری:\\
+
+$A.(B.C) = (A.B).C$ \\
+$A+(B+C) = (A+B)+C$ \\	
+	\item
+خاصیت توزیع پذیری:\\
+$A.(B+C) = (A.B)+(A.C)$ \\
+$A+(B.C) = (A+B).(A+C)$ \\	
+	\item
+خاصیت نقیض نقیض:\\
+$\overline{\overline{A}} = A$  	
+	\item
+خاصیت متمم:\\
+$\overline{A} . A = 0$ \\
+$\overline{A} + A = 1$ \\	
+	\item
+خاصیت همانی:\\
+$A.1 = A | A+1 = 1$ \\
+$A.0 = 0 | A+0 = A$ \\	
+	\item
+خاصیت دمورگان:\\
+$\overline{(A.B)} = (\overline{A} + \overline{B})$ \\
+$\overline{(A+B)} = (\overline{A} . \overline{B})$ \\	
+	
+\end{itemize}
 
 
-
+\raggedleft
+\justifying
 
 
 
