@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  29 OCT 2020 06:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  2 NOV 2020 09:27
 entering extended mode
 **./logicDesign.tex
 (logicDesign.tex
@@ -1221,22 +1221,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
  []
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 1264--1268
+Overfull \hbox (1.14037pt too wide) in paragraph at lines 1263--1264
+[]\TU/Vazir(0)/m/n/10 میتوانیم به تعداد عملوندها توجه کنیم و به عنوان توانی از 
+پایه دو استفاده[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1273
+[][]
+ []
+
+[66]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1295--1296
 [][]
  []
 
 Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
 t;mapping=persian-tex-text;!
-Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
-t;mapping=persian-tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
-[][]
- []
-
-Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
-t;mapping=persian-tex-text;!
-[66] [67] [68] (logicDesign.aux)
+[67] [68] [69] (logicDesign.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1250,4 +1262,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  55i,16n,74p,1063b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicDesign.pdf (68 pages).
+Output written on logicDesign.pdf (69 pages).
