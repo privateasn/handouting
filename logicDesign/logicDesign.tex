@@ -7,19 +7,15 @@
 \usepackage{color}
 % persian lang
 \usepackage{xepersian}
-
-
-
 % persian lang font
-\settextfont[Scale=1]{Vazir}
+\settextfont[Scale=1]{XB Roya}
 % line height
 \renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
-
 \centerline{جزوه درس مدار منطقی}
 \centerline{علیرضا سلطانی نشان}
-\centerline{دانشحوی نرم افزار}
+\centerline{دانشجوی نرم افزار}
 \centerline{ترم سوم}
 %\date{\today}
 \tableofcontents
@@ -1706,10 +1702,10 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 			\begin{tabular}{ c c c | c | c}
 		S & M & P & Boolean Form & Results\\
 		\hline
-		0 & 0 & 0 & $\bar{S M P}$ & 1\\
+		0 & 0 & 0 & $\bar{S} \bar{M} \bar{P}$ & 1\\
 		0 & 0 & 1 & $\bar{S} \bar{M} P$ & 1\\
 		0 & 1 & 0 & $\bar{S} M \bar{P}$ & 1\\
-		1 & 0 & 0 & $S \bar{M} P$& 1\\
+		1 & 0 & 0 & $S \bar{M} \bar{P}$& 1\\
 		1 & 1 & 0 & $S M \bar{P}$& 1\\
 	\end{tabular}
 	\end{tabular}
@@ -1719,7 +1715,7 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 \justifying
 
 \begin{equation}
- W= (\bar{S M P}) + (\bar{S} \bar{M} P) + (\bar{S} M \bar{P}) + (S \bar{M} P) +  (S M \bar{P})
+ W= (\bar{S} \bar{M} \bar{P}) + (\bar{S} \bar{M} P) + (\bar{S} M \bar{P}) + (S \bar{M} \bar{P}) +  (S M \bar{P})
 \end{equation}
 تابع ساده شده\\
 \begin{equation}
