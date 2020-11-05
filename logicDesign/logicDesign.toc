@@ -62,4 +62,4 @@
 \contentsline {subsubsection}{\numberline {2.7.2}اصل Duality}{76}{subsubsection.2.7.2}%
 \contentsline {subsection}{\numberline {2.8}خاصیت های گزاره ها}{76}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Gates}{78}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Functions Intermediate}{85}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.10}Functions Intermediate}{86}{subsection.2.10}%

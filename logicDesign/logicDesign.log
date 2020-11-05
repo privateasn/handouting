@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  5 NOV 2020 19:19
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  5 NOV 2020 19:36
 entering extended mode
 **./logicDesign.tex
 (logicDesign.tex
@@ -1554,69 +1554,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
 File: img/solAndExmp2.png Graphic file (type bmp)
 <img/solAndExmp2.png>
 [81]
-Underfull \hbox (badness 10000) in paragraph at lines 1635--1637
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1636
 [][]
  []
 
 [82]
 LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1639.
+(Font)              scaled to size 7.0pt on input line 1640.
 LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1641.
+(Font)              scaled to size 8.0pt on input line 1642.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1641.
+(Font)              <8> on input line 1642.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1641.
+(Font)              <6> on input line 1642.
 LaTeX Font Info:    Font shape `TU/Vazir(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 1641.
- [83] [84]
-Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
-t;mapping=persian-tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1678--1681
+(Font)              scaled to size 6.0pt on input line 1642.
+ [83]
+Underfull \hbox (badness 10000) in paragraph at lines 1676--1677
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1700--1704
+Underfull \hbox (badness 10000) in paragraph at lines 1692--1693
+[][]
+ []
+
+
+Overfull \hbox (26.31755pt too wide) in paragraph at lines 1696--1716
+ [][][] 
+ []
+
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1725
 [][]
  []
 
 [85]
+Missing character: There is no ‏ in font Vazir Bold/OT:script=arab;language=dfl
+t;mapping=persian-tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1738
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1761
+[][]
+ []
+
+[86]
 File: img/intermediateExmp.png Graphic file (type bmp)
 <img/intermediateExmp.png>
- [86]
-LaTeX Font Info:    Font shape `TU/Vazir(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 1714.
  [87]
-Underfull \hbox (badness 10000) in paragraph at lines 1732--1733
+LaTeX Font Info:    Font shape `TU/Vazir(0)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 1771.
+ [88]
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1790
 [][]
  []
 
 
-LaTeX Warning: Reference `footdir@11' on page 88 undefined on input line 1735.
+LaTeX Warning: Reference `footdir@11' on page 89 undefined on input line 1792.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1748--1749
+Underfull \hbox (badness 10000) in paragraph at lines 1805--1806
 [][]
  []
 
-[88]
-Underfull \hbox (badness 10000) in paragraph at lines 1768--1769
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1826
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1783--1784
+Underfull \hbox (badness 10000) in paragraph at lines 1840--1841
 [][]
  []
 
-[89] [90]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1844.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1844.
+[90] [91]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1901.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1901.
  (logicDesign.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1844.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1844.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1901.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1901.
 
 Package rerunfilecheck Info: File `logicDesign.out' has not changed.
 (rerunfilecheck)             Checksum: 652F35F0E3BC95451A7B638D2627CCAD;13318.
@@ -1627,7 +1647,7 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1844.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1901.
  ) 
 Here is how much of TeX's memory you used:
  13104 strings out of 414071
@@ -1638,4 +1658,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  52i,15n,74p,1183b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on logicDesign.pdf (90 pages).
+Output written on logicDesign.pdf (91 pages).

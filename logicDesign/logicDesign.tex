@@ -1632,9 +1632,10 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 \end{itemize}
 \end{LTR}
 
-که حالت جدول درستی معیار است چرا که تنها یک معنا دارد و از آن میتوان به روش های دیگر رسید و آنها را پیاده سازی نمود.
-مسئله:\\
+که حالت جدول درستی معیار است چرا که تنها یک معنا دارد و از آن میتوان به روش های دیگر رسید و آنها را پیاده سازی نمود.\\
 
+
+\textbf{مسئله:}\\
 ماشینی داریم که خودکار است، اگر در ورودی آن و چراغ های جلو روشن باشد، بوق میزند یا اگر در ورودی آن باز باشد و سویچ (کلید) روی حالت on باشد بازم بوق میزند، تابع این مسئله را بنویسید.
 \footnote{
 ساده سازی بین هر کدام از Term ها مانند فاکتورگیری در ریاضیات در این قسمت Adjacency گفته میشود
@@ -1669,6 +1670,62 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 \begin{equation}
 	H.D + D.K or H(D + K)
 \end{equation}
+
+\raggedleft
+\justifying
+بیلی دوست داره که فقط پیزایی با قیمت 5 دلار بخورد! یک پیزای 5 دلاری میتواند فقط یکی از موارد (سوسیس، قارچ، پپرونی) را داشته باشد، اما امروز یه تخفیفی فروشگاه گذاشته که بیلی میتونه پیزای سوسیس و قارچ رو باهم در قیمت 5 دلار داشته باشه، تابع و نمودار درستی این مسئله را بنویسید.\\
+
+\begin{LTR}
+	\begin{tabular}{ c c c | c}
+		S & M & P & Results\\
+		\hline
+		0 & 0 & 0 & 1\\
+		0 & 0 & 1 & 1\\
+		0 & 1 & 0 & 1\\
+		0 & 1 & 1 & 0\\
+		1 & 0 & 0 & 1\\
+		1 & 0 & 1 & 0\\
+		1 & 1 & 0 & 1\\
+		1 & 1 & 1 & 0\\
+	\end{tabular}
+\end{LTR}
+از آنجایی که معلوم است:\\
+
+\center
+\begin{LTR}
+	\begin{tabular}{ c c }
+		\begin{tabular}{ c c c | c}
+			S & M & P & Results\\
+			\hline
+			0 & 0 & 0 & 1\\
+			0 & 0 & 1 & 1\\
+			0 & 1 & 0 & 1\\
+			1 & 0 & 0 & 1\\
+			1 & 1 & 0 & 1\\
+		\end{tabular} & 
+			\begin{tabular}{ c c c | c | c}
+		S & M & P & Boolean Form & Results\\
+		\hline
+		0 & 0 & 0 & $\bar{S M P}$ & 1\\
+		0 & 0 & 1 & $\bar{S} \bar{M} P$ & 1\\
+		0 & 1 & 0 & $\bar{S} M \bar{P}$ & 1\\
+		1 & 0 & 0 & $S \bar{M} P$& 1\\
+		1 & 1 & 0 & $S M \bar{P}$& 1\\
+	\end{tabular}
+	\end{tabular}
+\end{LTR}
+
+\raggedleft
+\justifying
+
+\begin{equation}
+ W= (\bar{S M P}) + (\bar{S} \bar{M} P) + (\bar{S} M \bar{P}) + (S \bar{M} P) +  (S M \bar{P})
+\end{equation}
+تابع ساده شده\\
+\begin{equation}
+ W= P + M + S + (SM)
+\end{equation}
+
 
 \newpage
 
