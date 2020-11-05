@@ -429,9 +429,30 @@ Neural Networks become "Deep neural networks" if then contain 2 or more \textbf{
 \end{itemize}
 
 
+\section{Activation Functions}
 
+Recall that inputs x have a weight w and a bias term b attached to them in the perceptron model.
+which means we have 
+\begin{equation}
+	x*w+b
+\end{equation}
 
+Clearly w implies how much weight or strength to give the incoming input.
 
+We can think of b as an offset value making x*w have to reach a certain threshold before having an effect.\\
+
+For example if b = -10 \\
+x * w + b\\
+then the effect s of x * w won't really start to overcome the bias until their product surpasses 10.\\
+After that, then the effect is solely based ob the value of w.\\
+thus the term "bias".\\
+
+ Next we want to set boundaries for the overall output value of:
+\\
+x * w + b \\
+We can state :
+z = x * w + b \\
+And then pass z through some activation function to limit its value.\\
 
 
 

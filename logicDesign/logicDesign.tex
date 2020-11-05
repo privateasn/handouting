@@ -1256,17 +1256,17 @@ $2^{4} - 1 >= 11 + 4 true$\\
 به جدول زیر توجه کنید:
 \center 
 \begin{LTR}
-	\begin{tabular}{ c c c | c | c }
-		X & Y & Z & Prime no. & status \\
+	\begin{tabular}{ c | c c c | c | c }
+		Bit Pattern & X & Y & Z & Prime no. & status \\
 		\hline
-		0 & 0 & 0 & 0 & off-set \\ 				
-		0 & 0 & 1 & 0 & off-set\\
-		0 & 1 & 0 & 1 & on-set\\
-		0 & 1 & 1 & 1 & on-set\\
-		1 & 0 & 0 & 0 & off-set\\
-		1 & 0 & 1 & 1 & on-set\\
-		1 & 1 & 0 & 0 & off-set\\
-		1 & 1 & 1 & 1 & on-set\\	
+		0 & 0 & 0 & 0 & 0 & off-set \\ 				
+		1 & 0 & 0 & 1 & 0 & off-set\\
+		2 & 0 & 1 & 0 & 1 & on-set\\
+		3 & 0 & 1 & 1 & 1 & on-set\\
+		4 & 1 & 0 & 0 & 0 & off-set\\
+		5 & 1 & 0 & 1 & 1 & on-set\\
+		6 & 1 & 1 & 0 & 0 & off-set\\
+		7 & 1 & 1 & 1 & 1 & on-set\\	
 	\end{tabular}
 \end{LTR}
 \hfill \break
@@ -1322,8 +1322,12 @@ $XNOR = (A.B) + (\overline{A}.\overline{B}) \equiv (A \wedge B)\vee(\sim A\wedge
 \raggedleft
 \justifying
 
-\textbf{نکته:}\\
+\subsection{چند مورد از اصطلاحات}
 
+\subsubsection{Term}
+به هر يک از Variable ها، Term گفته ميشود.
+
+\subsubsection{Term Product}
 به هر کدام از ضرب بین عملوند ها یا and بین عملوند ها
 \textbf{ Term Products }گفته میشود.\\
 مانند:\\
@@ -1336,7 +1340,8 @@ $(XY) + Z$\\
 
 \raggedleft
 \justifying
-به هر کدام از جمع بین عملوند ها یا or بین آنها
+\subsubsection{Term Sum}
+	به هر کدام از جمع بین عملوند ها یا or بین آنها	
 \textbf{Term Sum}
 گفته میشود.\\
 
@@ -1348,19 +1353,28 @@ $Z'W + Y$\\
 
 \raggedleft
 \justifying
-به \textbf{Term Product }هایی که بین آنها عمل جمع یا or اتفاق افتاده است، \textbf{Product of Sum }یا \textbf{SoP} گفته می شود.\\
+\subsubsection{Term Min}
+	به هر \textbf{Term Product} گفته میشود که حداقل یکی از آنها True یا 1 باشند.
 
-به هر \textbf{Term Sum} که بین آنها عمل ضرب یا And صورت گرفته بر عکس SoP در حقیت PoS یا\textbf{ Sum of Products }گفته می شود\\
+\raggedleft
+\justifying
+\subsubsection{Product of Sum SoP}
+	به \textbf{Term Product }هایی که بین آنها عمل جمع یا or اتفاق افتاده است، \textbf{Product of Sum }یا \textbf{SoP} گفته می شود.\\
 
-یکسری دیگر هم وجود دارد که متغیر ها تنها به کار گرفته میشوند در این حالت آنها به صورت Literal هستند که هر دوی Term Sum و Term Product را شامل می شوند.
+\begin{equation}
+	\overbrace{\underbrace{(\overline{A}.B)_{Products Term}} + (\overline{B}.A)}^{Sum of Products}
+\end{equation}
 
-\begin{itemize}\centering
-	\item
-	$\overbrace{\underbrace{(\overline{A}.B)_{Products Term}} + (\overline{B}.A)}^{Sum of Products}$
+\subsubsection{Sum of Product PoS}
+	به هر \textbf{Term Sum} که بین آنها عمل ضرب یا And صورت گرفته بر عکس	 SoP در حقیت PoS یا\textbf{ Sum of Products }گفته می شود\\
+\begin{equation}
+	\overbrace{\underbrace{(\overline{A}+B)_{Sum Term}} . (\overline{B}+A)}^{Products of Sum}
+\end{equation}
+نکته:\\
 
-	\item
-	$\overbrace{\underbrace{(\overline{A}.B)_{Products Term}} . (\overline{B}.A)}^{Products of Sum}$ 
-\end{itemize}
+	Term
+ها
+در این حالت آنها به صورت Literal هستند که هر دوی Term Sum و Term Product را شامل می شوند.
 
 \newpage
 
@@ -1621,14 +1635,14 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 که حالت جدول درستی معیار است چرا که تنها یک معنا دارد و از آن میتوان به روش های دیگر رسید و آنها را پیاده سازی نمود.
 مسئله:\\
 
-ماشینی داریم که خودکار است، اگر در ورودی آن و چراغ های جلو روشن باشد، بوق میزند یا اگر در ورودی آن باز باشد و سویچ (کلید) روی حالت on باشد بازم بوق میزند، تابع این مسئله را بنویسید
-
-\begin{equation}
-	H.D + D.K or H(D + K)
-\end{equation}
+ماشینی داریم که خودکار است، اگر در ورودی آن و چراغ های جلو روشن باشد، بوق میزند یا اگر در ورودی آن باز باشد و سویچ (کلید) روی حالت on باشد بازم بوق میزند، تابع این مسئله را بنویسید.
+\footnote{
+ساده سازی بین هر کدام از Term ها مانند فاکتورگیری در ریاضیات در این قسمت Adjacency گفته میشود
+}
 \center
 \begin{LTR}
-	\begin{tabular}{ c c c | c }
+	\begin{tabular}{ c c }
+		\begin{tabular}{ c c c | c }
 		H & D & K & F \\
 		\hline
 		0 & 0 & 0 &  0\\ 				
@@ -1639,9 +1653,24 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 		1 & 0 & 1 &  0\\
 		1 & 1 & 0 &  1\\
 		1 & 1 & 1 &  0\\	
+	\end{tabular} & 
+	
+		\begin{tabular}{ c c c | c }
+		H & D & K & F \\
+		\hline
+		0 & 1 & 1 &  1\\
+		1 & 1 & 0 &  1\\
+	\end{tabular}
+	
 	\end{tabular}
 \end{LTR}
 \hfill \break
+
+\begin{equation}
+	H.D + D.K or H(D + K)
+\end{equation}
+
+\newpage
 
 \raggedleft
 \justifying
@@ -1676,19 +1705,116 @@ $\overline{(A+B)} = (\overline{A} . \overline{B})$ \\
 \begin{figure}[htbp]
 	\centerline{\includegraphics[width=100pt]{img/intermediateExmp.png}}
 \end{figure}
+\newpage
 
 \raggedleft
 \justifying
+با توجه به نتايج تابع G با استفاده از توابع Term Min تابع جدول را بدست آورید.
+\footnote{
+در حقیقت Term Min هایی که در نظر داریم بایستی \textbf{Form Boolean} آن ورودی ها را اول بنویسیم و در قسمت هایی که تابع داده شده حداقل یک بار یک بوده است Term Mid ها بدست خواهد آمد.}
 
+\begin{LTR}
+	\begin{tabular}{ c c c | c }		
+		X & Y & Z & G \\
+		\hline
+		  0 & 0  & 0  &1 \\
+		  0 & 0  & 1  &1 \\
+		  0 & 1  & 0  &0 \\
+		  0 & 1  & 1  &0 \\
+		  1 & 0  & 0  &1 \\
+		  1 & 0  & 1  &0 \\
+		  1 & 1  & 0  &1 \\
+		  1 & 1  & 1  &0 \\
+	\end{tabular}
+\end{LTR}
+\newpage
 
+جواب:\\
+\begin{LTR}
+	\begin{tabular}{ c c c | c | c }		
+		X & Y & Z & Min Terms\footnote{Boolean Form} & G \\
+		\hline
+		  0 & 0  & 0  & $\bar{X} \bar{Y} \bar{Z}$  &1 \\
+		  0 & 0  & 1  & $\bar{X} \bar{Y} Z$  &1 \\
+		  0 & 1  & 0  & $\bar{X} Y \bar{Z}$  &0 \\
+		  0 & 1  & 1  & $\bar{X} Y Z$  &0 \\
+		  1 & 0  & 0  & $\bar{X} Y Z$  &1 \\
+		  1 & 0  & 1  & $X \bar{Y} Z$  &0 \\
+		  1 & 1  & 0  & $X Y \bar{Z}$  &1 \\
+		  1 & 1  & 1  & $X Y Z$  &0 \\
+	\end{tabular}
+\end{LTR}
 
+\hfill \break
+\begin{LTR}
+	\begin{tabular}{ c c c | c | c }		
+		X & Y & Z & Min Terms & G \\
+		\hline
+		  0 & 0  & 0  & $\bar{X} \bar{Y} \bar{Z}$  &1 \\
+		  0 & 0  & 1  & $\bar{X} \bar{Y} Z$  &1 \\
+		  1 & 0  & 0  & $\bar{X} Y Z$  &1 \\
+		  1 & 1  & 0  & $X Y \bar{Z}$  &1 \\
+	\end{tabular}
+\end{LTR}
 
+\begin{equation}
+	W = (\bar{X} \bar{Y} \bar{Z}) +
+	(\bar{X} \bar{Y} Z) +
+	(\bar{X} Y Z) +
+	(X Y \bar{Z})
+\end{equation}
+\newpage
 
-
-
-
-
-
+مثال دوم:\\
+\begin{LTR}
+	\begin{tabular}{ c c c | c }		
+		X & Y & Z & G \\
+		\hline
+		  0 & 0  & 0  &0 \\
+		  0 & 0  & 1  &0 \\
+		  0 & 1  & 0  &1 \\
+		  0 & 1  & 1  &1 \\
+		  1 & 0  & 0  &0 \\
+		  1 & 0  & 1  &0 \\
+		  1 & 1  & 0  &1 \\
+		  1 & 1  & 1  &0 \\
+	\end{tabular}
+\end{LTR}
+جواب:\\
+\begin{LTR}
+	\begin{tabular}{ c c c | c | c }		
+		X & Y & Z & Min Terms & G \\
+		\hline
+		  0 & 0  & 0  & $\bar{X} \bar{Y} \bar{Z}$  &0 \\
+		  0 & 0  & 1  & $\bar{X} \bar{Y} Z$  &0 \\
+		  0 & 1  & 0  & $\bar{X} Y \bar{Z}$  &1 \\
+		  0 & 1  & 1  & $\bar{X} Y Z$  &1 \\
+		  1 & 0  & 0  & $\bar{X} Y Z$  &0 \\
+		  1 & 0  & 1  & $X \bar{Y} Z$  &0 \\
+		  1 & 1  & 0  & $X Y \bar{Z}$  &1 \\
+		  1 & 1  & 1  & $X Y Z$  &0 \\
+	\end{tabular}
+\end{LTR}
+\hfill \break
+جا هایی که تابع G ، یک شده است:
+\footnote{
+جاهایی که تابع داده شده یک شده است در حقیقت مشخص کننده Term Mid هامون هستند که Form Boolean آنها Term Product بین آنهاست
+}
+\begin{LTR}
+	\begin{tabular}{c c c | c | c }		
+		X & Y & Z & Min Terms & G \\
+		\hline
+		  0 & 1  & 0  & $\bar{X} Y \bar{Z}$  &1 \\
+		  0 & 1  & 1  & $\bar{X} Y Z$  &1 \\
+		  1 & 1  & 0  & $X Y \bar{Z}$  &1 \\
+	\end{tabular}
+\end{LTR}
+\begin{equation}
+	W = (\bar{X} Y \bar{Z}) +
+	(\bar{X} Y Z) +
+	(X Y \bar{Z})
+\end{equation}
+\newpage
 
 
 
