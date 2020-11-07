@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  4 NOV 2020 18:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  6 NOV 2020 17:27
 entering extended mode
 **./ML.tex
 (ML.tex
@@ -270,7 +270,22 @@ File: img/hiddenLayer.jpg Graphic file (type bmp)
 <img/hiddenLayer.jpg>
 File: img/deep_and_none_deep.jpg Graphic file (type bmp)
 <img/deep_and_none_deep.jpg>
- [20] [21] (ML.aux) ) 
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--456
+
+ []
+
+[21] (ML.aux) ) 
 Here is how much of TeX's memory you used:
  1463 strings out of 414071
  21167 string characters out of 2901731

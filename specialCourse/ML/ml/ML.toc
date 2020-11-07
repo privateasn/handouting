@@ -13,3 +13,4 @@
 \contentsline {section}{\numberline {8}Unsupervised Learning}{16}%
 \contentsline {section}{\numberline {9}Artificial Neural Networks}{17}%
 \contentsline {subsection}{\numberline {9.1}Perceptron model}{17}%
+\contentsline {section}{\numberline {10}Activation Functions}{21}%
