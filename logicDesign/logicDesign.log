@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  5 NOV 2020 20:13
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.28)  8 NOV 2020 09:11
 entering extended mode
 **./logicDesign.tex
 (logicDesign.tex
@@ -658,10 +658,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 [][]
  []
 
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 71.
-
+LaTeX Font Info:    Font shape `TU/XBRoya(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 71.
+LaTeX Font Info:    Font shape `TU/XBRoya(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 71.
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 [][]
@@ -692,10 +692,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--98
 [][]
  []
 
-LaTeX Font Info:    Font shape `TU/XBRoya(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 100.
-LaTeX Font Info:    Font shape `TU/XBRoya(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 100.
 
 Underfull \hbox (badness 10000) in paragraph at lines 101--109
 [][]
@@ -1191,7 +1187,7 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1897.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1897.
 
 Package rerunfilecheck Info: File `logicDesign.out' has not changed.
-(rerunfilecheck)             Checksum: 652F35F0E3BC95451A7B638D2627CCAD;13318.
+(rerunfilecheck)             Checksum: EBA2383FFB8DB6936C2DD5AEB7F31B22;13314.
 
 
 LaTeX Warning: There were undefined references.
